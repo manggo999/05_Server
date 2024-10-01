@@ -10,4 +10,31 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  
+  <!-- 특정 클래스를 Servlet으로 등록하고 이름을 지정하는 태그 -->
+  <servlet>
+   <!--  등록할 Servlet을 지칭할 명칭(별칭) -->
+   <servlet-name>ex1</servlet-name>
+   
+   <!-- Servlet으로 등록할 클래스의 패키지명 + 패키지명 -->
+   <servlet-class></servlet-class>
+  </servlet>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </web-app>

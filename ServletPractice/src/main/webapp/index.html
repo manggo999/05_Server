@@ -10,11 +10,21 @@
         <h3>회원가입</h3>
 
     <form action="/signUp" method="post">
+    <!-- action : 제출할 경로 / method : 제출방법(GET / Post)
+                                          기본값  : GET
+         제출 == 클라이언트가 서버로 요청
+    -->
+    
+    
         아이디 : <input type="text" name="inputId" required> <br>
         비밀번호 : <input type="password" name="inputPw" required> <br>
         비밀번호 확인 : <input type="password" name="inputPwCheck" required> <br>
         이름 : <input name="inputName" required> <br>
         나이 : <input name="inputAge" required> <br>
+        <!-- 
+        - name 속성(*중요*) : 서버로 제출 시 key 역할
+        - value or 입력된 값 : 서버로 제출 시 value 역할
+         -->
         
         <button>회원가입</button>
 
