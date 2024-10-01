@@ -1,0 +1,32 @@
+package edu.kh.servlet.controller;
+
+import java.io.IOException;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+
+@WebServlet("/signUp")
+public class PracticeController extends HttpServlet {
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		String inputId = req.getParameter("inputId");
+		String inputPw = req.getParameter("inputPw");
+		String inputPwCheck = req.getParameter("inputPw");
+		String inputName = req.getParameter("inputName");
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,14 @@
+package edu.kh.servlet.controller;
+
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+
+// Servlet 관련 코드를 작성하기 위해서는 HttpServlet 클래스 상속 받아야한다.
+// -> 상속 받았다고해서 바로  Servlet 등록이 되는 것은 아님!
+// -> 1. web.xml 작성하기 2. @WebServlet() 어노테이션 사용
+
+
+@WebServlet("/signup")
+public class ExampleController2 extends HttpServlet{
+
+}

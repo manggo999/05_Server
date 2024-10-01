@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <hr>
+
+    <h1> Post 방식 요청 및 응답</h1>
+    <pre>
+        GET 방식과는 다르게
+        전달되는 값을 주소가 아닌
+        HTTP Body에 담아서 전달하는 방식
+
+        [장점]
+        - 길이 제한 x
+        - 데이터를 숨겨서 전달(보안성 향상)
+
+        [단점]
+        - 캐싱 불가능(북마크 하면 원하는 페이지를 볼 수 없음)
+        
+    </pre>
+
+    <h3>회원가입</h3>
+
+    <form action="/signUp" method="post">
+        아이디 : <input type="text" name="inputId" required> <br>
+        비밀번호 : <input type="password" name="inputPw" required> <br>
+        비밀번호 확인 : <input type="password" required> <br>
+        이름 : <input name="inputName" required> <br>
+
+        자기소개(선택) <br>
+        <textarea name="intro" cols="50" rows="5"></textarea>
+        
+        <!--button 태그의 type = "submit" 기본값-->
+        <button>회원가입</button>
+
+    </form>
+
+
+
+
+
+
+
+    
+</body>
+</html>
