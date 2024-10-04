@@ -1,9 +1,0 @@
-package edu.kh.jsp.controller;
-
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-
-@WebServlet("/el_jstl")
-public class ElJstlServlet extends HttpServlet {
-
-}
