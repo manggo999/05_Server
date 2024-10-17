@@ -38,6 +38,15 @@ private TodoListDAO dao = null; // 변수 선언
 		//int index = dao.todoAdd();
 		return dao.todoAdd(todo);
 	}
+
+
+	@Override
+	public Todo todoDetailView(int index) {
+		
+		Todo todo = dao.todoDetailView(index);
+		return todo;
+		
+	}
 	
 	
 	
